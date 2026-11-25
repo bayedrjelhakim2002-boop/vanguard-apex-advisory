@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanguard Apex Advisory | Strategic Growth & M&A Consulting</title>
+  <meta name="description" content="Strategic management, M&A advisory, and operational scaling for mid-market enterprises across North America." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            navy: {
+              950: '#070D19',
+              900: '#0B132B',
+              800: '#1C2541',
+            },
+            gold: {
+              500: '#C59B27',
+              600: '#A8821D',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-navy-900 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3">
+          <div class="w-9 h-9 bg-navy-900 rounded flex items-center justify-center">
+            <span class="text-gold-500 font-serif font-bold text-xl">V</span>
+          </div>
+          <div>
+            <span class="font-serif font-bold text-xl tracking-tight text-navy-900 block leading-none">VANGUARD APEX</span>
+            <span class="text-[10px] uppercase tracking-[0.25em] text-slate-500 font-semibold">Advisory Group</span>
+          </div>
+        </a>
+
+        <!-- Desktop Links -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+          <a href="#services" class="hover:text-navy-900 transition">Practice Areas</a>
+          <a href="#results" class="hover:text-navy-900 transition">Track Record</a>
+          <a href="#approach" class="hover:text-navy-900 transition">Methodology</a>
+          <a href="#contact" class="bg-navy-900 text-white px-5 py-2.5 rounded hover:bg-navy-800 transition shadow-sm">
+            Schedule Briefing
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Trigger -->
+        <div class="flex items-center gap-2 md:hidden">
+          <a href="#contact" class="bg-navy-900 text-white text-xs font-semibold px-3.5 py-2 rounded">
+            Book Call
+          </a>
+          <button id="mobileMenuButton" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle navigation menu" class="p-2 rounded-md text-slate-700 hover:text-navy-900 hover:bg-slate-100 transition focus:outline-none">
+            <!-- Hamburger Icon -->
+            <svg id="menuOpenIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <!-- Close Icon -->
+            <svg id="menuCloseIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-slate-200 bg-white/98 shadow-xl">
+      <nav class="px-4 pt-3 pb-6 space-y-2 text-base font-medium text-slate-700">
+        <a href="#services" class="mobile-link block px-3 py-2.5 rounded hover:bg-slate-100 hover:text-navy-900 transition">Practice Areas</a>
+        <a href="#results" class="mobile-link block px-3 py-2.5 rounded hover:bg-slate-100 hover:text-navy-900 transition">Track Record</a>
+        <a href="#approach" class="mobile-link block px-3 py-2.5 rounded hover:bg-slate-100 hover:text-navy-900 transition">Methodology</a>
+        <a href="#contact" class="mobile-link block px-3 py-2.5 rounded bg-navy-900 text-white text-center hover:bg-navy-800 transition mt-4 shadow-sm">
+          Schedule Briefing
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-navy-950 text-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#C59B27_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy-800 border border-slate-700 text-gold-500 text-xs font-semibold tracking-wider uppercase mb-6">
+          <span class="w-2 h-2 rounded-full bg-gold-500"></span>
+          New York &bull; Chicago &bull; Austin
+        </div>
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
+          Precision Strategy for <span class="text-gold-500">High-Growth</span> Enterprises.
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-10 max-w-2xl font-light">
+          We partner with founders, private equity sponsors, and C-suite executives to unlock enterprise value, streamline operations, and execute complex M&amp;A transactions.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#contact" class="inline-flex justify-center items-center px-7 py-4 bg-gold-500 hover:bg-gold-600 text-navy-950 font-semibold rounded transition shadow-lg">
+            Request Executive Consultation
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+          <a href="#results" class="inline-flex justify-center items-center px-7 py-4 bg-transparent border border-slate-600 hover:border-white text-white font-medium rounded transition">
+            Explore Case Studies
+          </a>
+        </div>
+      </div>
+
+      <!-- Trust Metrics -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 mt-16 border-t border-slate-800/80">
+        <div>
+          <p class="font-serif text-3xl sm:text-4xl font-bold text-white">$4.2B+</p>
+          <p class="text-sm text-slate-400 mt-1">Transaction Value Advised</p>
+        </div>
+        <div>
+          <p class="font-serif text-3xl sm:text-4xl font-bold text-white">140+</p>
+          <p class="text-sm text-slate-400 mt-1">Mid-Market Transformations</p>
+        </div>
+        <div>
+          <p class="font-serif text-3xl sm:text-4xl font-bold text-white">31%</p>
+          <p class="text-sm text-slate-400 mt-1">Avg. EBITDA Margin Lift</p>
+        </div>
+        <div>
+          <p class="font-serif text-3xl sm:text-4xl font-bold text-white">98%</p>
+          <p class="text-sm text-slate-400 mt-1">Client Retention Rate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Practice Areas / Services -->
+  <section id="services" class="py-24 bg-white scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-gold-600">Core Capabilities</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Advisory Built for Measurable Outcomes</h2>
+        <p class="text-slate-600 mt-4 leading-relaxed">
+          Unlike traditional firms that deliver theoretical slide decks, our partners embed directly with leadership teams to execute transformation from day one.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-8 rounded-lg border border-slate-200 hover:border-navy-900/30 hover:shadow-xl transition duration-300 bg-slate-50/50">
+          <div class="w-12 h-12 rounded bg-navy-900 text-gold-500 flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy-900 mb-3">Corporate Growth Strategy</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Market entry architecture, pricing optimization, and commercial expansion roadmaps tailored for B2B SaaS, healthcare, and industrial firms.
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Revenue Architecture &amp; GTM</li>
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Unit Economics Restructuring</li>
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Competitive Moat Analysis</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-8 rounded-lg border border-slate-200 hover:border-navy-900/30 hover:shadow-xl transition duration-300 bg-slate-50/50">
+          <div class="w-12 h-12 rounded bg-navy-900 text-gold-500 flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy-900 mb-3">M&amp;A Due Diligence</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Buy-side and sell-side commercial diligence, post-merger integration (PMI), and operational synergy capture for private equity and strategic acquirers.
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Commercial &amp; Tech Diligence</li>
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> 100-Day Post-Close Execution</li>
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Exit Readiness Optimization</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-8 rounded-lg border border-slate-200 hover:border-navy-900/30 hover:shadow-xl transition duration-300 bg-slate-50/50">
+          <div class="w-12 h-12 rounded bg-navy-900 text-gold-500 flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy-900 mb-3">Operational Excellence</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Supply chain resilience, workflow automation, and working capital optimization to protect margins during rapid scaling phases.
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Cost Structure Re-engineering</li>
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> AI &amp; Digital Workflow Integration</li>
+            <li class="flex items-center gap-2"><span class="text-gold-600">&#10003;</span> Executive KPI Dashboards</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies / Results -->
+  <section id="results" class="py-24 bg-slate-100 border-y border-slate-200 scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-14">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-gold-600">Selected Engagements</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Recent Client Impact</h2>
+        </div>
+        <p class="text-sm text-slate-600 max-w-md mt-4 md:mt-0">
+          Confidential engagements anonymized to protect partner NDA agreements.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
+          <div class="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 mb-4">
+            <span>B2B Logistics &amp; Supply Chain</span>
+            <span class="text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded">+$18.4M Annualized EBITDA</span>
+          </div>
+          <h3 class="font-serif text-2xl font-bold text-navy-900 mb-3">Multi-State Carrier Network Consolidation</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Redesigned regional routing hubs and renegotiated vendor contracts for a Texas-based logistics operator ahead of a Series C recapitalization.
+          </p>
+          <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-100 text-center">
+            <div>
+              <span class="block font-bold text-navy-900 text-lg">-22%</span>
+              <span class="text-xs text-slate-500">Operating Cost</span>
+            </div>
+            <div>
+              <span class="block font-bold text-navy-900 text-lg">14 Wks</span>
+              <span class="text-xs text-slate-500">Execution Time</span>
+            </div>
+            <div>
+              <span class="block font-bold text-navy-900 text-lg">4.8x</span>
+              <span class="text-xs text-slate-500">Engagement ROI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
+          <div class="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 mb-4">
+            <span>Healthcare Technology</span>
+            <span class="text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded">$310M Exit Valuation</span>
+          </div>
+          <h3 class="font-serif text-2xl font-bold text-navy-900 mb-3">Enterprise Pricing &amp; Sell-Side Readiness</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Transitioned a legacy clinical software provider from perpetual licensing to tiered SaaS recurring revenue across 420 hospital networks.
+          </p>
+          <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-100 text-center">
+            <div>
+              <span class="block font-bold text-navy-900 text-lg">+44%</span>
+              <span class="text-xs text-slate-500">Net Dollar Retention</span>
+            </div>
+            <div>
+              <span class="block font-bold text-navy-900 text-lg">6 Mos</span>
+              <span class="text-xs text-slate-500">To Close</span>
+            </div>
+            <div>
+              <span class="block font-bold text-navy-900 text-lg">9.2x</span>
+              <span class="text-xs text-slate-500">ARR Multiple</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section id="approach" class="py-24 bg-white scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-gold-600">How We Work</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">The 90-Day Value Creation Sprint</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="relative">
+          <span class="font-serif text-5xl font-bold text-slate-200">01</span>
+          <h3 class="text-lg font-bold text-navy-900 mt-2 mb-2">Diagnostic Audit (Weeks 1–2)</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Deep-dive financial, commercial, and operational assessment to pinpoint immediate margin leaks and high-leverage growth levers.
+          </p>
+        </div>
+        <div class="relative">
+          <span class="font-serif text-5xl font-bold text-slate-200">02</span>
+          <h3 class="text-lg font-bold text-navy-900 mt-2 mb-2">Blueprint &amp; Alignment (Weeks 3–4)</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Board-ready execution roadmap with clear unit-economic targets, resource allocation, and weekly accountability milestones.
+          </p>
+        </div>
+        <div class="relative">
+          <span class="font-serif text-5xl font-bold text-slate-200">03</span>
+          <h3 class="text-lg font-bold text-navy-900 mt-2 mb-2">Embedded Execution (Weeks 5–12)</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Hands-on implementation alongside your leadership team until KPIs are stabilized and internal teams are trained to sustain gains.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Consultation Form -->
+  <section id="contact" class="py-24 bg-navy-900 text-white scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-gold-500">Confidential Inquiry</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2 mb-6">Initiate a Strategic Dialogue</h2>
+          <p class="text-slate-300 leading-relaxed mb-8">
+            Speak directly with a Managing Partner regarding upcoming transactions, operational restructuring, or growth initiatives. All inquiries are protected under mutual NDA.
+          </p>
+          <div class="space-y-4 text-sm text-slate-300">
+            <p><strong class="text-white">New York HQ:</strong> 450 Lexington Avenue, Suite 2800, New York, NY 10017</p>
+            <p><strong class="text-white">Direct Desk:</strong> +1 (212) 555-0194</p>
+            <p><strong class="text-white">Executive Inquiries:</strong> partners@vanguardapex.com</p>
+          </div>
+        </div>
+
+        <div class="bg-white text-slate-900 p-8 sm:p-10 rounded-lg shadow-2xl">
+          <form id="briefingForm" class="space-y-5" novalidate>
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div>
+                <label for="fullName" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">Full Name <span class="text-rose-500">*</span></label>
+                <input id="fullName" name="fullName" type="text" required placeholder="Jonathan Vance" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-navy-900 focus:ring-1 focus:ring-navy-900 focus:outline-none text-sm transition" />
+              </div>
+              <div>
+                <label for="workEmail" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">Work Email <span class="text-rose-500">*</span></label>
+                <input id="workEmail" name="workEmail" type="email" required placeholder="j.vance@company.com" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-navy-900 focus:ring-1 focus:ring-navy-900 focus:outline-none text-sm transition" />
+              </div>
+            </div>
+            <div>
+              <label for="companyRevenue" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">Company &amp; Annual Revenue</label>
+              <select id="companyRevenue" name="companyRevenue" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-navy-900 focus:ring-1 focus:ring-navy-900 focus:outline-none text-sm bg-white transition">
+                <option value="10-50m">$10M – $50M ARR</option>
+                <option value="50-250m">$50M – $250M ARR</option>
+                <option value="250m+">$250M+ Enterprise</option>
+                <option value="pe-family">Private Equity / Family Office</option>
+              </select>
+            </div>
+            <div>
+              <label for="primaryObjective" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">Primary Objective <span class="text-rose-500">*</span></label>
+              <textarea id="primaryObjective" name="primaryObjective" rows="3" required placeholder="Briefly describe your growth, M&A, or operational priorities..." class="w-full px-4 py-3 rounded border border-slate-300 focus:border-navy-900 focus:ring-1 focus:ring-navy-900 focus:outline-none text-sm transition"></textarea>
+            </div>
+            <button id="submitBtn" type="submit" class="w-full bg-navy-900 hover:bg-navy-800 text-white font-semibold py-3.5 rounded transition shadow-md flex items-center justify-center gap-2">
+              <span id="btnText">Request Partner Briefing</span>
+              <svg id="btnSpinner" class="w-4 h-4 animate-spin hidden" viewBox="0 0 24 24" fill="none">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+            </button>
+
+            <!-- Success Alert -->
+            <div id="formSuccess" class="hidden p-4 rounded-lg bg-emerald-50 border border-emerald-200">
+              <div class="flex items-start gap-3">
+                <div class="w-5 h-5 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs mt-0.5 flex-shrink-0">✓</div>
+                <div class="text-xs text-emerald-800">
+                  <p class="font-semibold text-sm">Briefing Request Received</p>
+                  <p class="mt-0.5">Thank you. A Managing Partner will review your objectives and respond within one business day.</p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-950 text-slate-400 py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
+      <p>&copy; 2026 Vanguard Apex Advisory Group LLC. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-white transition">Privacy Policy</a>
+        <a href="#" class="hover:text-white transition">Terms of Engagement</a>
+        <a href="#" class="hover:text-white transition">SEC Disclosures</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // --- Mobile Menu Toggle ---
+    const mobileBtn = document.getElementById('mobileMenuButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const openIcon = document.getElementById('menuOpenIcon');
+    const closeIcon = document.getElementById('menuCloseIcon');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    function toggleMobileMenu() {
+      const isExpanded = mobileBtn.getAttribute('aria-expanded') === 'true';
+      mobileBtn.setAttribute('aria-expanded', !isExpanded);
+      mobileMenu.classList.toggle('hidden');
+      openIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    }
+
+    mobileBtn.addEventListener('click', toggleMobileMenu);
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (!mobileMenu.classList.contains('hidden')) {
+          toggleMobileMenu();
+        }
+      });
+    });
+
+    // --- Briefing Form Handling ---
+    const form = document.getElementById('briefingForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const btnText = document.getElementById('btnText');
+    const btnSpinner = document.getElementById('btnSpinner');
+    const formSuccess = document.getElementById('formSuccess');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Basic client-side check
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      // Loading state
+      submitBtn.disabled = true;
+      submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+      btnText.textContent = 'Transmitting Request...';
+      btnSpinner.classList.remove('hidden');
+
+      // Simulate network request
+      setTimeout(() => {
+        submitBtn.disabled = false;
+        submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+        btnText.textContent = 'Request Partner Briefing';
+        btnSpinner.classList.add('hidden');
+
+        formSuccess.classList.remove('hidden');
+        form.reset();
+
+        // Scroll slightly to make sure success alert is in view if on mobile
+        formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 700);
+    });
+  </script>
+</body>
+</html>
